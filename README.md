@@ -1,11 +1,7 @@
-# Invitación Yuly & Constantino
+# Invitación Constantino & Yuly
 
-Invitación digital de matrimonio para **Yuly Ortega y Constantino Gutiérrez**.
+Invitación digital de matrimonio de Constantino y Yuly.
 
-- Fecha: 3 de octubre de 2026
-- Ceremonia católica: Iglesia San Miguel Arcángel, Chinácota — 6:00 p. m.
-- Recepción: Cabaña El Milagrito — 7:30 p. m.
-- Diseño: verde eucalipto, beige, marfil y dorado champagne
-- Incluye apertura interactiva, cuenta regresiva, ubicación y mapa integrado
+## Vista previa para redes
 
-Sitio pensado para publicación en GitHub Pages.
+La vista previa social utiliza `assets/whatsapp-preview-wa.jpg` en formato JPEG 1200 × 630, configurada mediante Open Graph en `index.html`.
