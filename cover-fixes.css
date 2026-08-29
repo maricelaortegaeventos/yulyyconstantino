@@ -1,0 +1,54 @@
+/* Ajustes de portada: sello fijo, tapas verdes más anchas y sin líneas laterales */
+.gatefold{
+  width:min(92vw,460px);
+  aspect-ratio:.76;
+}
+
+.gate-panel{
+  width:52%;
+}
+
+.gate-left{
+  left:-2%;
+  border-radius:34px 0 0 34px;
+  clip-path:none;
+}
+
+.gate-right{
+  right:-2%;
+  border-radius:0 34px 34px 0;
+  clip-path:none;
+}
+
+/* Quita las pequeñas líneas de las esquinas */
+.corner{
+  display:none !important;
+}
+
+/* Mantiene el sello exactamente centrado y evita que se desplace al pasar el mouse */
+.seal{
+  left:50%;
+  top:50%;
+  translate:none;
+  transform:translate(-50%,-50%);
+  z-index:5;
+  transition:opacity .7s ease;
+}
+
+.seal:hover,
+.seal:focus,
+.seal:focus-visible,
+.seal:active{
+  transform:translate(-50%,-50%);
+}
+
+@media (max-width:720px){
+  .gatefold{
+    width:min(94vw,440px);
+  }
+  .gate-panel{
+    width:53%;
+  }
+  .gate-left{left:-3%}
+  .gate-right{right:-3%}
+}
