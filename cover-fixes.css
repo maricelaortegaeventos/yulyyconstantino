@@ -42,6 +42,24 @@
   transform:translate(-50%,-50%);
 }
 
+/* Justifica los dos párrafos principales en escritorio y móvil */
+.message-card p{
+  text-align:justify !important;
+  text-justify:inter-word;
+  hyphens:auto;
+  -webkit-hyphens:auto;
+}
+
+/* Justifica el texto de "Nuestra historia de amor" en escritorio */
+@media (min-width:721px){
+  .photo-copy p{
+    text-align:justify !important;
+    text-justify:inter-word;
+    hyphens:auto;
+    -webkit-hyphens:auto;
+  }
+}
+
 @media (max-width:720px){
   .gatefold{
     width:min(94vw,440px);
