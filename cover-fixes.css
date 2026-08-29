@@ -52,15 +52,38 @@
   .gate-left{left:-3%}
   .gate-right{right:-3%}
 
-  /* Centra el texto y el botón de ubicación en móvil */
-  .map-footer{
-    align-items:center;
-    text-align:center;
+  /* Centrado real del bloque de ubicación en móvil */
+  .location .map-footer{
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    align-items:center !important;
+    text-align:center !important;
+    gap:18px !important;
   }
-  .map-footer > div{
-    width:100%;
+
+  .location .map-footer > div{
+    width:100% !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:center !important;
+    text-align:center !important;
   }
-  .map-footer .gold-button{
-    align-self:center;
+
+  .location .map-footer > div strong,
+  .location .map-footer > div span{
+    display:block !important;
+    width:100% !important;
+    text-align:center !important;
+  }
+
+  .location .map-footer .gold-button{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    align-self:center !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
   }
 }
