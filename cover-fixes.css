@@ -51,4 +51,16 @@
   }
   .gate-left{left:-3%}
   .gate-right{right:-3%}
+
+  /* Centra el texto y el botón de ubicación en móvil */
+  .map-footer{
+    align-items:center;
+    text-align:center;
+  }
+  .map-footer > div{
+    width:100%;
+  }
+  .map-footer .gold-button{
+    align-self:center;
+  }
 }
